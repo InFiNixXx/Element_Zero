@@ -7,7 +7,7 @@ def gold_room():
 
     next = raw_input("> ")
     how_much = int(next)
-    if how_much < 50:
+    if how_much <=50:
         print "Nice, you're not greedy, You W.I.N!!!"
         exit(0)
     else:
