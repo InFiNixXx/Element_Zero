@@ -34,7 +34,7 @@ def start():
         hitler()
     else:
         print "Error, You Can't escape the WAR GAMES"
-        start()
+        exit()
 
 
 start()
