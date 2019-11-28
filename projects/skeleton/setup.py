@@ -1,10 +1,12 @@
+#Error
+
 try:
     from setuptools import setup
 except ImportError:
     from distutils.core import setup
 
 config = [
-        'description': 'My Project',
+        # 'description': 'My Project',
         'author': 'Sauronil Das',
         'url': 'URL to get it at',
         'download_url': 'where to download it',
@@ -13,7 +15,7 @@ config = [
         'install_requires': ['nose'],
         'packages': ['NAME'],
         'scripts': [],
-        'name': 'projectname',
+        'name': 'Dummy_Project',
 
         ]
 
